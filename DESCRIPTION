@@ -11,11 +11,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 URL: https://github.com/lizzyjoan/seekRx
 BugReports: https://github.com/lizzyjoan/seekRx/issues
-<<<<<<< HEAD
 Imports: 
     dplyr,
-    magrittr,
     signatureSearch,
     stringr
-=======
->>>>>>> e1741e4a0b409b106f7682ff86a134506c207180
