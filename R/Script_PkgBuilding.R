@@ -7,14 +7,14 @@ library(stringr)
 library(signatureSearch)
 
 #connect github
-usethis::use_git()
-usethis::use_github()
+#usethis::use_git()
+#usethis::use_github()
 
 #first check
-devtools::check()
+#devtools::check()
 
 #add license, MIT license that's standard recommendation
-usethis::use_mit_license("Elizabeth Ramsey")
+#usethis::use_mit_license("Elizabeth Ramsey")
 
 #crete seek_ids function
 usethis::use_r("seek_ids")
@@ -31,7 +31,7 @@ usethis::use_package("stringr")
 usethis::use_pipe()  #for %>% pipe, creates utila-pipe.R
 devtools::document()
 
-devtools::check()
+#devtools::check()
 
 #create seek_data function
 usethis::use_r("seek_data")
