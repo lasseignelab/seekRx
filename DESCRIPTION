@@ -13,5 +13,6 @@ URL: https://github.com/lizzyjoan/seekRx
 BugReports: https://github.com/lizzyjoan/seekRx/issues
 Imports: 
     dplyr,
+    magrittr,
     signatureSearch,
     stringr
